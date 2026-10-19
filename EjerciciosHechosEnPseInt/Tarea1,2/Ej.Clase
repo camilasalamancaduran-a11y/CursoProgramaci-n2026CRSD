@@ -1,0 +1,20 @@
+Algoritmo promedioQ
+	Escribir "Hola Mundo"
+	Escribir "Ingrese su primera nota"
+	Leer nota1
+	Escribir nota1 
+	Escribir "Ingrese su segunda nota"
+	Leer nota2
+	Escribir nota2
+	Escribir "Ingrese su tercera nota"
+	Leer nota3
+	Escribir nota3
+	promedio <- (nota1 + nota2 + nota3) /3
+	Escribir "Este es el promedio de las 3 notas ",promedio
+	//ahora decidimos si aprobo o reprobo
+	Si promedio >= 61 Entonces
+		Escribir "Aprobaste"
+	SiNo
+		Escribir "Reprobaste"
+	FinSi
+FinAlgoritmo
